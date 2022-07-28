@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>ECE3140 Final Project - Wow! The Matrix Sniper by ece3140-sp2020</title>
+    <title>Wow! The Matrix Sniper</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -11,9 +11,9 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">ECE3140 Final Project - Wow! The Matrix Sniper</h1>
-      <h2 class="project-tagline">Owen Deng (qd39) &amp; Yang Shen (ys656)</h2>
-      <a href="https://github.coecis.cornell.edu/ece3140-sp2020/qd39-ys656" class="btn">View on GitHub</a>
+      <h1 class="project-name">Wow! The Matrix Sniper</h1>
+      <h2 class="project-tagline">Owen Deng (qd39 at cornell.edu) &amp; Yang Shen (ys656 at cornell.edu)</h2>
+      <a href="https://github.com/qd39l/Matrix-Sniper/tree/main/source" class="btn">Source Code</a>
     </section>
 
     <section class="main-content">
@@ -21,7 +21,7 @@
 <a id="wow-the-matrix-sniper-beta" class="anchor" href="#wow-the-matrix-sniper-beta" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Wow! The Matrix Sniper Beta</h1>
 <h2>
 <a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Introduction</h2>
-<p>Our project for ECE 3140 SP20 is a laser shooting arcade game using the FRDM-K64F board as the control unit. In this game, there are 2 LED matrix panels that are the “targets” and a 7-segment LED number display that shows the player’s current score and tells the player which target to shoot on.</p>
+<p>This project is a laser shooting arcade game using the FRDM-K64F board as the control unit. In this game, there are 2 LED matrix panels that are the “targets” and a 7-segment LED number display that shows the player’s current score and tells the player which target to shoot on.</p>
 <p>After turning on the power supply, the LED panels would light up, and the 7-segment display would show the current score, which should be “0  0.” The number on the left shows the number of failures, and the number on the right shows the number of points. After ~10 seconds of waiting time for the player to get ready, the LED panels and the 7-segment display would flash for 3 seconds to signal the beginning of the game. At this point, the LED panels are turned off. After a random delay time, the board randomly picks one of the targets, the LED panels would flash, and the 7-segment display would show “ [ [ [ [ (left target)” of “] ] ] ] (right target).” If the player shoots the correct LED panel within a given amount of time, 1 point is scored. Otherwise, if the player shoots at the incorrect target or fails to shoot at the target within the given time, the player will lose 1 point and get 1 failure. After each round, the 7-segment display updates the current score.</p>
 <p>The game ends when the player wins the game by scoring 5 points or making 2 failures. When the game ends, both LEDs are turned on. If the player wins, the number on the left (showing failures) would flash “2”. Otherwise, the number on the right (showing points) would flash “5”.</p>
 <p>We have successfully assembled and coded the project to achieve full functionality. Through working on this project, we had the opportunity to design a project on our own, which inspired our imagination and sparked our passion. We have encountered a lot of difficulties and overcame them as true engineers. As a CS major, Yang learns basic knowledge of circuits, while Owen gets to learn software testing techniques from Yang. Furthermore, both of us learn how to collaborate remotely and work efficiently as a team, and we learn how to read the documentation of the hardware devices that we are working with and how to search for information from the internet. This project has given us great hands-on experience and encouraged us to think on our own, code on our own, and debug on our own, which will help us in our future careers!</p>
@@ -42,8 +42,7 @@
     height="315" 
     allowfullscreen>
 </iframe>
-<p>In case the above embedded video does not play as intended, here is a link to the video: <a href="https://www.youtube.com/PombbTEN6Gc">https://www.youtube.com/PombbTEN6Gc</a>
-(By May 25: Video is processing by Youtube, should be available within two days.)</p>
+<p>In case the above embedded video does not play as intended, here is a link to the video: <a href="https://www.youtube.com/PombbTEN6Gc">https://www.youtube.com/PombbTEN6Gc</a></p>
 <h2>
 <a id="system-description" class="anchor" href="#system-description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>System Description</h2>
 <h3>
@@ -108,8 +107,6 @@
 <p>We would like to thank the instructor and all the course staff for their dedication to this course!</p>
 
       <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.coecis.cornell.edu/ece3140-sp2020/qd39-ys656">ECE3140 Final Project - Wow! The Matrix Sniper</a> is maintained by <a href="https://github.coecis.cornell.edu/ece3140-sp2020">ece3140-sp2020</a>.</span>
-
         <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
       </footer>
 
